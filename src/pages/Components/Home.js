@@ -231,7 +231,10 @@ const HomeSection = () => {
           sx={{ fontWeight: "bold", color: "#880e4f", mb: 2 }}
         >
           We are{" "}
-          <Typography component="span" sx={{ fontWeight: 300,color:'black',fontStyle: "italic" }}>
+          <Typography
+            component="span"
+            sx={{ fontWeight: 300, color: "black", fontStyle: "italic" }}
+          >
             Frequent Research
           </Typography>
         </Typography>
@@ -268,14 +271,11 @@ const HomeSection = () => {
                   >
                     We are a group of...{" "}
                   </Box>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    sx={{ color: "#ef6c00", alignItems: "center" }}
-                  >
+                  <Box component="span" sx={{ color: "#ef6c00" }}>
                     dedicated, creative people
-                  </Typography>
+                  </Box>
                 </Typography>
+
                 <Typography variant="body2" sx={{ color: "text.secondary" }}>
                   We love print. We love graphics and design. We love our team.
                   Come check us out.
